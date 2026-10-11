@@ -11,6 +11,11 @@ A practical notebook for learning Kubernetes concepts, testing them, and recordi
 
 Do not commit kubeconfig files, tokens, passwords, or other secrets.
 
+## Repository layout
+
+- **notes/** groups dated learning notes by subject.
+- **examples/** groups runnable manifests by topic.
+
 ## Roadmap
 
 - [ ] **Foundations:** clusters, control plane, nodes, API objects, namespaces, and kubectl.
@@ -35,4 +40,5 @@ For each topic, capture:
 
 | Date | Topic | What I tried | Result | Next step |
 | --- | --- | --- | --- | --- |
-| 2026-10-11 | [ClusterIP, NodePort, and LoadBalancer](notes/2026-10-11-kubernetes-services.md) | Studied Service types and YAML | Note and examples added; live lab pending | Apply and test the manifests |
+| 2026-10-11 | [ClusterIP, NodePort, and LoadBalancer](notes/networking/2026-10-11-services.md) | Studied Service types and YAML | Note and examples added; live lab pending | Apply and test the manifests |
+
